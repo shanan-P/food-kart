@@ -77,7 +77,6 @@ const City = () => {
     </>
   ) : (<>
     <Body cityName={cityName} apiWaleRestaurants={apiWaleRestaurants} />
-    jkk
   </>
   );
 };
