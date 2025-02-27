@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+    padding-right: 17px;
+}
+
+.logo{
+    width: 80px;
+}
+
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;  
+    cursor: pointer; 
+}
+
+.cityHeading {
+    margin: 12px;
+}
+
+.cityName{
+    color: lightcoral;
+}
+
+.res-card{
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.res-container > * {
+    text-decoration: none;
+    color: inherit;
+}
+
+.res-logo{
+    width: 100%;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cityBtn {
+    height: 34px;
+    margin: 20px;
+}
+
+.shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.login {
+    width: 80px;
+    height: 50px;
+    font-size: large;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    padding-right: 17px;
+}
+
+.filter-btn-1 {
+    height: 40px;
+    width: 200px;
+    font-size:medium;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.search-box {
+    height: 30px;
+    width: 500px;
+    border: 2px solid lightcoral;
+    border-radius: 5%;
+}
+
+.user-card{
+    display: inline-block;
+    border: 1px solid lightcoral;
+}
